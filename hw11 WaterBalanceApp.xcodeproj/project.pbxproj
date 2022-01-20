@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD1BA473278DC100001DB6E6 /* GoalChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BA472278DC100001DB6E6 /* GoalChoiceButton.swift */; };
+		DD1BA477278DC56C001DB6E6 /* TimeChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1BA476278DC56C001DB6E6 /* TimeChoiceButton.swift */; };
+		DD30E33B279614AF0081CCC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD30E33A279614AF0081CCC7 /* ContentView.swift */; };
+		DD4CF9662791D2C200280802 /* CurrentDateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4CF9652791D2C200280802 /* CurrentDateTime.swift */; };
+		DD4CF9682791D36D00280802 /* ProgressInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4CF9672791D36D00280802 /* ProgressInformation.swift */; };
+		DD4D4F2A2796B18300D5E94B /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D4F292796B18300D5E94B /* CustomAlert.swift */; };
+		DD687C272792D49B00222045 /* CustomTextfFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD687C262792D49B00222045 /* CustomTextfFieldStyle.swift */; };
+		DD687C292792D51D00222045 /* AppDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD687C282792D51D00222045 /* AppDataStorage.swift */; };
+		DD687C2B2792D90400222045 /* OneDayInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD687C2A2792D90400222045 /* OneDayInformation.swift */; };
+		DD963A50278B47D9005941DE /* hw11_WaterBalanceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A4F278B47D9005941DE /* hw11_WaterBalanceAppApp.swift */; };
+		DD963A54278B47DA005941DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD963A53278B47DA005941DE /* Assets.xcassets */; };
+		DD963A57278B47DA005941DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD963A56278B47DA005941DE /* Preview Assets.xcassets */; };
+		DD963A61278B47DA005941DE /* hw11_WaterBalanceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A60278B47DA005941DE /* hw11_WaterBalanceAppTests.swift */; };
+		DD963A6B278B47DA005941DE /* hw11_WaterBalanceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A6A278B47DA005941DE /* hw11_WaterBalanceAppUITests.swift */; };
+		DD963A6D278B47DA005941DE /* hw11_WaterBalanceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A6C278B47DA005941DE /* hw11_WaterBalanceAppUITestsLaunchTests.swift */; };
+		DD963A7A278B4D90005941DE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A79278B4D90005941DE /* MainView.swift */; };
+		DD963A7C278B4DF5005941DE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A7B278B4DF5005941DE /* SettingsView.swift */; };
+		DD963A7E278B4E13005941DE /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A7D278B4E13005941DE /* HistoryView.swift */; };
+		DD963A84278B4E80005941DE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A83278B4E80005941DE /* Colors.swift */; };
+		DD963A86278B4EFF005941DE /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A85278B4EFF005941DE /* CustomButton.swift */; };
+		DD963A88278B4F86005941DE /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A87278B4F86005941DE /* GoalView.swift */; };
+		DD963A8A278B4FA0005941DE /* RemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A89278B4FA0005941DE /* RemindView.swift */; };
+		DD963A8C278B4FC9005941DE /* DailyIntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD963A8B278B4FC9005941DE /* DailyIntakeView.swift */; };
+		DDD3E8D42794996B0090EC97 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD3E8D32794996B0090EC97 /* UserSettings.swift */; };
+		DDFF8EE427942ADF00BD3A46 /* WaterIntakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFF8EE327942ADF00BD3A46 /* WaterIntakeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD963A5D278B47DA005941DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD963A44278B47D9005941DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD963A4B278B47D9005941DE;
+			remoteInfo = "hw11 WaterBalanceApp";
+		};
+		DD963A67278B47DA005941DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD963A44278B47D9005941DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD963A4B278B47D9005941DE;
+			remoteInfo = "hw11 WaterBalanceApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD1BA472278DC100001DB6E6 /* GoalChoiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalChoiceButton.swift; sourceTree = "<group>"; };
+		DD1BA476278DC56C001DB6E6 /* TimeChoiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeChoiceButton.swift; sourceTree = "<group>"; };
+		DD30E33A279614AF0081CCC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD4CF9652791D2C200280802 /* CurrentDateTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateTime.swift; sourceTree = "<group>"; };
+		DD4CF9672791D36D00280802 /* ProgressInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressInformation.swift; sourceTree = "<group>"; };
+		DD4D4F292796B18300D5E94B /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		DD687C262792D49B00222045 /* CustomTextfFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfFieldStyle.swift; sourceTree = "<group>"; };
+		DD687C282792D51D00222045 /* AppDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStorage.swift; sourceTree = "<group>"; };
+		DD687C2A2792D90400222045 /* OneDayInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneDayInformation.swift; sourceTree = "<group>"; };
+		DD963A4C278B47D9005941DE /* hw11 WaterBalanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw11 WaterBalanceApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD963A4F278B47D9005941DE /* hw11_WaterBalanceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw11_WaterBalanceAppApp.swift; sourceTree = "<group>"; };
+		DD963A53278B47DA005941DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD963A56278B47DA005941DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD963A5C278B47DA005941DE /* hw11 WaterBalanceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw11 WaterBalanceAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD963A60278B47DA005941DE /* hw11_WaterBalanceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw11_WaterBalanceAppTests.swift; sourceTree = "<group>"; };
+		DD963A66278B47DA005941DE /* hw11 WaterBalanceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw11 WaterBalanceAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD963A6A278B47DA005941DE /* hw11_WaterBalanceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw11_WaterBalanceAppUITests.swift; sourceTree = "<group>"; };
+		DD963A6C278B47DA005941DE /* hw11_WaterBalanceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw11_WaterBalanceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD963A79278B4D90005941DE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DD963A7B278B4DF5005941DE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DD963A7D278B4E13005941DE /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		DD963A83278B4E80005941DE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DD963A85278B4EFF005941DE /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DD963A87278B4F86005941DE /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		DD963A89278B4FA0005941DE /* RemindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindView.swift; sourceTree = "<group>"; };
+		DD963A8B278B4FC9005941DE /* DailyIntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyIntakeView.swift; sourceTree = "<group>"; };
+		DDD3E8D32794996B0090EC97 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		DDFF8EE327942ADF00BD3A46 /* WaterIntakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD963A49278B47D9005941DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD963A59278B47DA005941DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD963A63278B47DA005941DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD1BA474278DC12A001DB6E6 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				DD4CF9652791D2C200280802 /* CurrentDateTime.swift */,
+				DD963A85278B4EFF005941DE /* CustomButton.swift */,
+				DD687C262792D49B00222045 /* CustomTextfFieldStyle.swift */,
+				DD1BA472278DC100001DB6E6 /* GoalChoiceButton.swift */,
+				DD4CF9672791D36D00280802 /* ProgressInformation.swift */,
+				DD1BA476278DC56C001DB6E6 /* TimeChoiceButton.swift */,
+				DD4D4F292796B18300D5E94B /* CustomAlert.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		DD1BA475278DC147001DB6E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD30E33A279614AF0081CCC7 /* ContentView.swift */,
+				DD963A79278B4D90005941DE /* MainView.swift */,
+				DD963A7B278B4DF5005941DE /* SettingsView.swift */,
+				DD963A7D278B4E13005941DE /* HistoryView.swift */,
+				DDFF8EE327942ADF00BD3A46 /* WaterIntakeView.swift */,
+				DD963A87278B4F86005941DE /* GoalView.swift */,
+				DD963A89278B4FA0005941DE /* RemindView.swift */,
+				DD963A8B278B4FC9005941DE /* DailyIntakeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD963A43278B47D9005941DE = {
+			isa = PBXGroup;
+			children = (
+				DD963A4E278B47D9005941DE /* hw11 WaterBalanceApp */,
+				DD963A5F278B47DA005941DE /* hw11 WaterBalanceAppTests */,
+				DD963A69278B47DA005941DE /* hw11 WaterBalanceAppUITests */,
+				DD963A4D278B47D9005941DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD963A4D278B47D9005941DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD963A4C278B47D9005941DE /* hw11 WaterBalanceApp.app */,
+				DD963A5C278B47DA005941DE /* hw11 WaterBalanceAppTests.xctest */,
+				DD963A66278B47DA005941DE /* hw11 WaterBalanceAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD963A4E278B47D9005941DE /* hw11 WaterBalanceApp */ = {
+			isa = PBXGroup;
+			children = (
+				DD963A4F278B47D9005941DE /* hw11_WaterBalanceAppApp.swift */,
+				DD1BA475278DC147001DB6E6 /* Views */,
+				DD1BA474278DC12A001DB6E6 /* Structs */,
+				DDD3E8D22794993D0090EC97 /* Models */,
+				DD963A53278B47DA005941DE /* Assets.xcassets */,
+				DD963A83278B4E80005941DE /* Colors.swift */,
+				DD687C282792D51D00222045 /* AppDataStorage.swift */,
+				DD963A55278B47DA005941DE /* Preview Content */,
+			);
+			path = "hw11 WaterBalanceApp";
+			sourceTree = "<group>";
+		};
+		DD963A55278B47DA005941DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD963A56278B47DA005941DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD963A5F278B47DA005941DE /* hw11 WaterBalanceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD963A60278B47DA005941DE /* hw11_WaterBalanceAppTests.swift */,
+			);
+			path = "hw11 WaterBalanceAppTests";
+			sourceTree = "<group>";
+		};
+		DD963A69278B47DA005941DE /* hw11 WaterBalanceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD963A6A278B47DA005941DE /* hw11_WaterBalanceAppUITests.swift */,
+				DD963A6C278B47DA005941DE /* hw11_WaterBalanceAppUITestsLaunchTests.swift */,
+			);
+			path = "hw11 WaterBalanceAppUITests";
+			sourceTree = "<group>";
+		};
+		DDD3E8D22794993D0090EC97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD687C2A2792D90400222045 /* OneDayInformation.swift */,
+				DDD3E8D32794996B0090EC97 /* UserSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD963A4B278B47D9005941DE /* hw11 WaterBalanceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD963A70278B47DA005941DE /* Build configuration list for PBXNativeTarget "hw11 WaterBalanceApp" */;
+			buildPhases = (
+				DD963A48278B47D9005941DE /* Sources */,
+				DD963A49278B47D9005941DE /* Frameworks */,
+				DD963A4A278B47D9005941DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw11 WaterBalanceApp";
+			productName = "hw11 WaterBalanceApp";
+			productReference = DD963A4C278B47D9005941DE /* hw11 WaterBalanceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD963A5B278B47DA005941DE /* hw11 WaterBalanceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD963A73278B47DA005941DE /* Build configuration list for PBXNativeTarget "hw11 WaterBalanceAppTests" */;
+			buildPhases = (
+				DD963A58278B47DA005941DE /* Sources */,
+				DD963A59278B47DA005941DE /* Frameworks */,
+				DD963A5A278B47DA005941DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD963A5E278B47DA005941DE /* PBXTargetDependency */,
+			);
+			name = "hw11 WaterBalanceAppTests";
+			productName = "hw11 WaterBalanceAppTests";
+			productReference = DD963A5C278B47DA005941DE /* hw11 WaterBalanceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD963A65278B47DA005941DE /* hw11 WaterBalanceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD963A76278B47DA005941DE /* Build configuration list for PBXNativeTarget "hw11 WaterBalanceAppUITests" */;
+			buildPhases = (
+				DD963A62278B47DA005941DE /* Sources */,
+				DD963A63278B47DA005941DE /* Frameworks */,
+				DD963A64278B47DA005941DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD963A68278B47DA005941DE /* PBXTargetDependency */,
+			);
+			name = "hw11 WaterBalanceAppUITests";
+			productName = "hw11 WaterBalanceAppUITests";
+			productReference = DD963A66278B47DA005941DE /* hw11 WaterBalanceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD963A44278B47D9005941DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DD963A4B278B47D9005941DE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DD963A5B278B47DA005941DE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DD963A4B278B47D9005941DE;
+					};
+					DD963A65278B47DA005941DE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DD963A4B278B47D9005941DE;
+					};
+				};
+			};
+			buildConfigurationList = DD963A47278B47D9005941DE /* Build configuration list for PBXProject "hw11 WaterBalanceApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD963A43278B47D9005941DE;
+			productRefGroup = DD963A4D278B47D9005941DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD963A4B278B47D9005941DE /* hw11 WaterBalanceApp */,
+				DD963A5B278B47DA005941DE /* hw11 WaterBalanceAppTests */,
+				DD963A65278B47DA005941DE /* hw11 WaterBalanceAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD963A4A278B47D9005941DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD963A57278B47DA005941DE /* Preview Assets.xcassets in Resources */,
+				DD963A54278B47DA005941DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD963A5A278B47DA005941DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD963A64278B47DA005941DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD963A48278B47D9005941DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1BA477278DC56C001DB6E6 /* TimeChoiceButton.swift in Sources */,
+				DD687C292792D51D00222045 /* AppDataStorage.swift in Sources */,
+				DD963A7C278B4DF5005941DE /* SettingsView.swift in Sources */,
+				DD30E33B279614AF0081CCC7 /* ContentView.swift in Sources */,
+				DD963A84278B4E80005941DE /* Colors.swift in Sources */,
+				DD963A7E278B4E13005941DE /* HistoryView.swift in Sources */,
+				DD4CF9662791D2C200280802 /* CurrentDateTime.swift in Sources */,
+				DD963A7A278B4D90005941DE /* MainView.swift in Sources */,
+				DD4CF9682791D36D00280802 /* ProgressInformation.swift in Sources */,
+				DD963A50278B47D9005941DE /* hw11_WaterBalanceAppApp.swift in Sources */,
+				DD687C2B2792D90400222045 /* OneDayInformation.swift in Sources */,
+				DD687C272792D49B00222045 /* CustomTextfFieldStyle.swift in Sources */,
+				DDD3E8D42794996B0090EC97 /* UserSettings.swift in Sources */,
+				DD963A8C278B4FC9005941DE /* DailyIntakeView.swift in Sources */,
+				DD963A88278B4F86005941DE /* GoalView.swift in Sources */,
+				DD963A86278B4EFF005941DE /* CustomButton.swift in Sources */,
+				DD963A8A278B4FA0005941DE /* RemindView.swift in Sources */,
+				DDFF8EE427942ADF00BD3A46 /* WaterIntakeView.swift in Sources */,
+				DD1BA473278DC100001DB6E6 /* GoalChoiceButton.swift in Sources */,
+				DD4D4F2A2796B18300D5E94B /* CustomAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD963A58278B47DA005941DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD963A61278B47DA005941DE /* hw11_WaterBalanceAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD963A62278B47DA005941DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD963A6D278B47DA005941DE /* hw11_WaterBalanceAppUITestsLaunchTests.swift in Sources */,
+				DD963A6B278B47DA005941DE /* hw11_WaterBalanceAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD963A5E278B47DA005941DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD963A4B278B47D9005941DE /* hw11 WaterBalanceApp */;
+			targetProxy = DD963A5D278B47DA005941DE /* PBXContainerItemProxy */;
+		};
+		DD963A68278B47DA005941DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD963A4B278B47D9005941DE /* hw11 WaterBalanceApp */;
+			targetProxy = DD963A67278B47DA005941DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD963A6E278B47DA005941DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD963A6F278B47DA005941DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD963A71278B47DA005941DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hw11 WaterBalanceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw11-WaterBalanceApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD963A72278B47DA005941DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hw11 WaterBalanceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw11-WaterBalanceApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD963A74278B47DA005941DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw11-WaterBalanceAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw11 WaterBalanceApp.app/hw11 WaterBalanceApp";
+			};
+			name = Debug;
+		};
+		DD963A75278B47DA005941DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw11-WaterBalanceAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hw11 WaterBalanceApp.app/hw11 WaterBalanceApp";
+			};
+			name = Release;
+		};
+		DD963A77278B47DA005941DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw11-WaterBalanceAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hw11 WaterBalanceApp";
+			};
+			name = Debug;
+		};
+		DD963A78278B47DA005941DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZY2P6T65K;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "leyla.hw11-WaterBalanceAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hw11 WaterBalanceApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD963A47278B47D9005941DE /* Build configuration list for PBXProject "hw11 WaterBalanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD963A6E278B47DA005941DE /* Debug */,
+				DD963A6F278B47DA005941DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD963A70278B47DA005941DE /* Build configuration list for PBXNativeTarget "hw11 WaterBalanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD963A71278B47DA005941DE /* Debug */,
+				DD963A72278B47DA005941DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD963A73278B47DA005941DE /* Build configuration list for PBXNativeTarget "hw11 WaterBalanceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD963A74278B47DA005941DE /* Debug */,
+				DD963A75278B47DA005941DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD963A76278B47DA005941DE /* Build configuration list for PBXNativeTarget "hw11 WaterBalanceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD963A77278B47DA005941DE /* Debug */,
+				DD963A78278B47DA005941DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD963A44278B47D9005941DE /* Project object */;
+}
